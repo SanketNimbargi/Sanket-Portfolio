@@ -4678,8 +4678,12 @@ blockquote {
 
 .cover-image.project {
   border-radius: 1.25rem;
-  width: auto;
-  height: auto;
+  width: 90%;
+  height: 80%;
+  /* filter:blur(-2px);
+  filter:brightness(1.2);
+  filter:grayscale(0); */
+  filter: contrast(1.2);
 }
 
 .nextUp .cover-image.project {
