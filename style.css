@@ -4,6 +4,17 @@ html {
   font-family: sans-serif;
 }
 
+/* styles.css */
+:root {
+  --background-light: #fff;
+  --background-dark: #000;
+  --text-light: #000;
+  --text-dark: #fff;
+}
+
+
+
+
 body {
   margin: 0;
 }
@@ -7265,4 +7276,28 @@ blockquote {
 
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+
+#projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-card {
+  width: 250px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.project-card h2 {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.project-card p {
+  font-size: 14px;
+  margin-bottom: 0;
 }
